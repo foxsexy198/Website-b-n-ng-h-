@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>shopper_frenzy</name>
+	<creationDate>April 2009</creationDate>
+	<author>Shape5.com</author>
+	<copyright>Shape5</copyright>
+	<authorEmail>contact@shape5.com</authorEmail>
+	<authorUrl>http://www.shape5.com</authorUrl>
+	<version>1.0</version>
+	<description>Shopper Frenzy - Shape 5 April 2009 Club Template<![CDATA[
+	<br /><a target="_blank" href="http://www.shape5.com">Click here</a> to visit Shape5.com]]></description>
+	<files>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>html/modules.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>footer.php</filename>
+		<filename>s5_suckerfish.php</filename>
+		<filename>s5_no_moo_menu.php</filename>
+		<filename>js/IEsuckerfish.js</filename>
+		<filename>js/s5_effects.js</filename>
+		<filename>js/lytebox.js</filename>
+		<filename>js/s5_fading_no_moo_menu.js</filename>
+		<filename>js/s5_suckerfish.js</filename>
+		<filename>js/s5_no_moo_menu.js</filename>
+		<filename>js/tooltips.js</filename>
+		<filename>params.ini</filename>
+	</files>
+	<css>
+		<filename>css/template_css.css</filename>
+		<filename>css/s5_suckerfish.css</filename>
+		<filename>css/lytebox.css</filename>
+		<filename>css/editor.css</filename>
+		<filename>css/style1.css</filename>
+		<filename>css/style2.css</filename>
+		<filename>css/style3.css</filename>
+		<filename>css/style4.css</filename>
+		<filename>css/style5.css</filename>
+		<filename>css/style6.css</filename>
+	</css>
+	<images>
+		<filename>favicon.ico</filename>
+        <filename>template_thumbnail.png</filename>
+		<filename>images/arrow.png</filename>
+		<filename>images/con_address.png</filename>
+		<filename>images/con_fax.png</filename>
+		<filename>images/con_info.png</filename>
+		<filename>images/con_tel.png</filename>
+		<filename>images/emailButton.png</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>
+		<filename>images/s5_bg_gradient.png</filename>
+		<filename>images/s5_bl_corner.png</filename>
+		<filename>images/s5_bot_gradient.png</filename>
+		<filename>images/s5_bot_shadow.png</filename>
+		<filename>images/s5_br_corner.png</filename>
+		<filename>images/s5_breadcrumb.png</filename>
+		<filename>images/s5_button.png</filename>
+		<filename>images/s5_dd_menu.png</filename>
+		<filename>images/s5_dd_parent.png</filename>
+		<filename>images/s5_dd_shadow.png</filename>
+		<filename>images/s5_drop_bg.gif</filename>
+		<filename>images/s5_drop_bg.png</filename>
+		<filename>images/s5_footer_l.png</filename>
+		<filename>images/s5_footer_m.png</filename>
+		<filename>images/s5_footer_r.png</filename>
+		<filename>images/s5_footer_shadow.png</filename>
+		<filename>images/s5_large_shadow.png</filename>
+		<filename>images/s5_logo.png</filename>
+		<filename>images/s5_lr_left.png</filename>
+		<filename>images/s5_lr_repeat.png</filename>
+		<filename>images/s5_lr_right.png</filename>
+		<filename>images/s5_menu_b_repeat.png</filename>
+		<filename>images/s5_menu_bl.png</filename>
+		<filename>images/s5_menu_br.png</filename>
+		<filename>images/s5_menu_hover.png</filename>
+		<filename>images/s5_menu_repeat.png</filename>
+		<filename>images/s5_menu_tl.png</filename>
+		<filename>images/s5_menu_tr.png</filename>
+		<filename>images/s5_mod_bl.png</filename>
+		<filename>images/s5_mod_br.png</filename>
+		<filename>images/s5_mod_noshad_tl.png</filename>
+		<filename>images/s5_mod_noshad_tr.png</filename>
+		<filename>images/s5_mod_notop_tl.png</filename>
+		<filename>images/s5_mod_notop_tr.png</filename>
+		<filename>images/s5_mod_tl.png</filename>
+		<filename>images/s5_mod_tr.png</filename>
+		<filename>images/s5_password.png</filename>
+		<filename>images/s5_search.png</filename>
+		<filename>images/s5_small_shadow.png</filename>
+		<filename>images/s5_tab.png</filename>
+		<filename>images/s5_tl_corner.png</filename>
+		<filename>images/s5_tl_shadow.png</filename>
+		<filename>images/s5_top_shadow.png</filename>
+		<filename>images/s5_tr_corner.png</filename>
+		<filename>images/s5_tr_shadow.png</filename>
+		<filename>images/s5_username.png</filename>
+		<filename>images/s5_vm_menu.png</filename>
+		<filename>images/style1/s5_add_to_cart.png</filename>
+		<filename>images/style1/s5_background.jpg</filename>
+		<filename>images/style1/s5_bot_row_l.png</filename>
+		<filename>images/style1/s5_bot_row_m.png</filename>
+		<filename>images/style1/s5_bot_row_r.png</filename>
+		<filename>images/style1/s5_l_menu_act.png</filename>
+		<filename>images/style1/s5_l_search_button.png</filename>
+		<filename>images/style1/s5_m_search_button.png</filename>
+		<filename>images/style1/s5_menu_line.png</filename>
+		<filename>images/style1/s5_r_menu_act.png</filename>
+		<filename>images/style1/s5_r_search_button.png</filename>
+		<filename>images/style1/s5_vm_menu.png</filename>
+		<filename>images/style2/s5_add_to_cart.png</filename>
+		<filename>images/style2/s5_background.jpg</filename>
+		<filename>images/style2/s5_bot_row_l.png</filename>
+		<filename>images/style2/s5_bot_row_m.png</filename>
+		<filename>images/style2/s5_bot_row_r.png</filename>
+		<filename>images/style2/s5_l_menu_act.png</filename>
+		<filename>images/style2/s5_l_search_button.png</filename>
+		<filename>images/style2/s5_m_search_button.png</filename>
+		<filename>images/style2/s5_menu_line.png</filename>
+		<filename>images/style2/s5_r_menu_act.png</filename>
+		<filename>images/style2/s5_r_search_button.png</filename>
+		<filename>images/style2/s5_vm_menu.png</filename>
+		<filename>images/style3/s5_add_to_cart.png</filename>
+		<filename>images/style3/s5_background.jpg</filename>
+		<filename>images/style3/s5_bot_row_l.png</filename>
+		<filename>images/style3/s5_bot_row_m.png</filename>
+		<filename>images/style3/s5_bot_row_r.png</filename>
+		<filename>images/style3/s5_l_menu_act.png</filename>
+		<filename>images/style3/s5_l_search_button.png</filename>
+		<filename>images/style3/s5_m_search_button.png</filename>
+		<filename>images/style3/s5_menu_line.png</filename>
+		<filename>images/style3/s5_r_menu_act.png</filename>
+		<filename>images/style3/s5_r_search_button.png</filename>
+		<filename>images/style3/s5_vm_menu.png</filename>
+		<filename>images/style4/s5_add_to_cart.png</filename>
+		<filename>images/style4/s5_background.jpg</filename>
+		<filename>images/style4/s5_bot_row_l.png</filename>
+		<filename>images/style4/s5_bot_row_m.png</filename>
+		<filename>images/style4/s5_bot_row_r.png</filename>
+		<filename>images/style4/s5_l_menu_act.png</filename>
+		<filename>images/style4/s5_l_search_button.png</filename>
+		<filename>images/style4/s5_m_search_button.png</filename>
+		<filename>images/style4/s5_menu_line.png</filename>
+		<filename>images/style4/s5_r_menu_act.png</filename>
+		<filename>images/style4/s5_r_search_button.png</filename>
+		<filename>images/style4/s5_vm_menu.png</filename>
+		<filename>images/style5/s5_add_to_cart.png</filename>
+		<filename>images/style5/s5_background.jpg</filename>
+		<filename>images/style5/s5_bot_row_l.png</filename>
+		<filename>images/style5/s5_bot_row_m.png</filename>
+		<filename>images/style5/s5_bot_row_r.png</filename>
+		<filename>images/style5/s5_l_menu_act.png</filename>
+		<filename>images/style5/s5_l_search_button.png</filename>
+		<filename>images/style5/s5_m_search_button.png</filename>
+		<filename>images/style5/s5_menu_line.png</filename>
+		<filename>images/style5/s5_r_menu_act.png</filename>
+		<filename>images/style5/s5_r_search_button.png</filename>
+		<filename>images/style5/s5_vm_menu.png</filename>
+		<filename>images/style6/s5_add_to_cart.png</filename>
+		<filename>images/style6/s5_background.jpg</filename>
+		<filename>images/style6/s5_bot_row_l.png</filename>
+		<filename>images/style6/s5_bot_row_m.png</filename>
+		<filename>images/style6/s5_bot_row_r.png</filename>
+		<filename>images/style6/s5_l_menu_act.png</filename>
+		<filename>images/style6/s5_l_search_button.png</filename>
+		<filename>images/style6/s5_m_search_button.png</filename>
+		<filename>images/style6/s5_menu_line.png</filename>
+		<filename>images/style6/s5_r_menu_act.png</filename>
+		<filename>images/style6/s5_r_search_button.png</filename>
+		<filename>images/style6/s5_vm_menu.png</filename>
+		<filename>images/lytebox/play_grey.png</filename>
+		<filename>images/lytebox/prev_grey.gif</filename>
+		<filename>images/lytebox/loading.gif</filename>
+		<filename>images/lytebox/next_grey.gif</filename>
+		<filename>images/lytebox/close_grey.png</filename>
+		<filename>images/lytebox/pause_grey.png</filename>
+		<filename>images/lytebox/blank.gif</filename>
+		<filename>images/typography/s5_bullet_small.png</filename>
+		<filename>images/typography/s5_left_quote.png</filename>
+		<filename>images/typography/s5_li_number1.png</filename>
+		<filename>images/typography/s5_li_number2.png</filename>
+		<filename>images/typography/s5_li_number3.png</filename>
+		<filename>images/typography/s5_li_number4.png</filename>
+		<filename>images/typography/s5_li_number5.png</filename>
+		<filename>images/typography/s5_li_number6.png</filename>
+		<filename>images/typography/s5_li_number7.png</filename>
+		<filename>images/typography/s5_li_number8.png</filename>
+		<filename>images/typography/s5_li_number9.png</filename>
+		<filename>images/typography/s5_right_quote.png</filename>
+		<filename>images/typography/s5_ul_arrow.png</filename>
+		<filename>images/typography/s5_ul_bullet.png</filename>
+		<filename>images/typography/s5_ul_bullet.gif</filename>
+		<filename>images/typography/s5_ul_star.png</filename>	
+		<filename>images/typography/s5_left_quote.gif</filename>
+		<filename>images/typography/s5_li_number1.gif</filename>
+		<filename>images/typography/s5_li_number2.gif</filename>
+		<filename>images/typography/s5_li_number3.gif</filename>
+		<filename>images/typography/s5_li_number4.gif</filename>
+		<filename>images/typography/s5_li_number5.gif</filename>
+		<filename>images/typography/s5_li_number6.gif</filename>
+		<filename>images/typography/s5_li_number7.gif</filename>
+		<filename>images/typography/s5_li_number8.gif</filename>
+		<filename>images/typography/s5_li_number9.gif</filename>
+		<filename>images/typography/s5_right_quote.gif</filename>
+		<filename>images/typography/star.gif</filename>
+	</images>
+	<positions>
+		<position>debug</position>	
+		<position>sub_menu</position>	
+		<position>under_menu_left</position>	
+		<position>under_menu_right</position>	
+		<position>breadcrumb</position>	
+		<position>search</position>		
+		<position>left</position>	
+		<position>cart</position>
+		<position>above_body_1</position>
+		<position>above_body_2</position>		
+		<position>above_body_3</position>				
+		<position>inset</position>	
+		<position>below_body_1</position>
+		<position>below_body_2</position>
+		<position>below_body_3</position>
+		<position>bottom_row_1</position>
+		<position>bottom_row_2</position>
+		<position>bottom_row_3</position>
+		<position>bottom_row_4</position>
+		<position>bottom_menu</position>
+		<position>drop_down_1</position>
+		<position>drop_down_2</position>		
+		<position>drop_down_3</position>	
+	</positions>
+		<params>
+		<param name="spacer1" type="spacer" default="Make sure to hover your mouse over each title in this column for a full description of what each field does." />
+		<param name="xml_s5_style" type="list" default="style1" label="Color Style" description="">
+			<option value="style1">style1</option>
+			<option value="style2">style2</option>
+			<option value="style3">style3</option>
+			<option value="style4">style4</option>
+			<option value="style5">style5</option>
+			<option value="style6">style6</option>
+		</param>
+		<param name="xml_s5_body_width" type="text" default="925" label="Body Width" description="Enter the width of the body in pixels." />
+		<param name="xml_s5_inset_width" type="text" default="220" label="Inset Width" description="Enter the width of the inset column in pixels." />
+		<param name="xml_s5_left_width" type="text" default="257" label="Left Width" description="Enter the width of the left column in pixels." />
+		<param name="spacer2" type="spacer" default="Below you can choose what menu system you would like to use. Choosing No Menu will also disable the positions sub_menu, under_menu_left and under_menu_right." />
+		<param name="xml_s5_menu" type="list" default="1" label="Menu Type" description="Enter in 1 for No-MooMenu, 2 for Suckerfish, 3 for Fading No-Moo, or 4 for Nothing">
+			<option value="1">S5 Drop In No-MooMenu</option>
+			<option value="2">Suckerfish</option>
+			<option value="3">S5 Fading No-MooMenu</option>
+			<option value="4">No Menu</option>
+		</param>	
+		<param name="xml_menuname" type="text" default="mainmenu" label="Menu Name" description="What menu would you like to use for the default default menu?" />	
+		<param name="xml_s5_tooltips" type="list" default="yes" label="Enable Tooltips?" description="Would you like to enable tooltips? NOTE: It is highly recommened to disable this script if you are not planning to use it.">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>
+		<param name="xml_s5_lytebox" type="list" default="yes" label="Enable Lytebox?" description="Would you like to enable Lytebox? NOTE: Virtuemart uses this same script, so on all Virtuemart pages this script will automatically be disabled and the Virtuemart script will be used in its place on those pages only to avoid conflictions. It is highly recommened to disable this script if you are not planning to use it.">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>	
+		<param name="xml_s5_frontpage" type="list" default="no" label="Would You Like The Component and Article Area Shown On The Frontpage? - This will also disable the inset position." description="Choose whether or not to show the component and article section on the frontpage of the site.">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>
+		<param name="spacer2" type="spacer" default="If you publish any module to drop_down_1, drop_down_2 or drop_down_3 the S5 Drop Down will automatically appear. Below you can adjust the settings of the S5 Drop Down." />
+		<param name="xml_s5_closed_text" type="text" default="The tab is closed" label="Closed Drop Down Text" description="If you publish any module to the advert1, advert2 or advert3 positions a drop down will automatically appear. What text would you like on the tab when it is closed?" />
+		<param name="xml_s5_open_text" type="text" default="The tab is open" label="Open Drop Down Text" description="What text would you like to appear when it is open?" />
+		<param name="xml_s5_user_speed" type="text" default="15" label="Drop Down Speed" description="What speed would you like the tab to open at? 1 is slow 30 is fast." />
+		
+	</params>
+</install>

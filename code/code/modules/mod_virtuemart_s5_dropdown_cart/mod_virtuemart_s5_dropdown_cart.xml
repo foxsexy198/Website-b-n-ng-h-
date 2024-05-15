@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="module" version="1.5.0">
+    <name>S5 Drop Down Cart</name>
+    <creationDate>4/2/2009</creationDate>
+    <author>Shape 5</author>
+      <copyright>
+		Copyright (C) 2009 Shape 5 LLC. All rights reserved.
+	</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>contact@shape5.com</authorEmail>
+    <authorUrl>www.shape5.com</authorUrl>
+    <version>2.0</version>
+    <description>Updated to include AJAX support. Shows cart price and quantity, individual cart items are visible when button is clicked. By Shape5.com</description>
+     <files>
+        <filename module="mod_virtuemart_s5_dropdown_cart">mod_virtuemart_s5_dropdown_cart.php</filename>
+		<filename>minicart.tpl.php</filename>
+		<filename>s5_dropdown/s5_dropdown.js</filename>
+		<filename>s5_dropdown/arrow.png</filename>
+		<filename>s5_dropdown/background.png</filename>
+     </files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="width" type="text" default="278" label="Width" description="" />
+		<param name="height" type="text" default="66" label="Height" description="" />
+		<param name="lmargin" type="text" default="0" label="Left Margin" description="" />
+		<param name="bmargin" type="text" default="0" label="Bottom Margin" description="" />
+		<param name="rmargin" type="text" default="0" label="Right Margin" description="" />
+		<param name="tmargin" type="text" default="0" label="Top Margin" description="" />
+		<param name="backcolor" type="text" default="FFFFFF" label="Drop Down Background Color" description="Enter the HEX color you would like the dropdown back to be" />
+		<param name="bordercolor" type="text" default="CCCCCC" label="Drop Down Border Color" description="Enter the HEX color you would like the dropdown border to be" />
+		<param name="backfontcolor" type="text" default="000000" label="Drop Down Font Color" description="This is font color displayed for the items in your cart when the drop down appears" />
+		<param name="fontcolor" type="text" default="000000" label="Box Font Color" description="This is font color displayed for your items and intro text" />
+		<param name="fontsize" type="text" default="12" label="Font Size" description="" />
+		<param name="introtext" type="text" default="Your Cart:" label="Title Text" description="This is the text that is displayed at the top of the cart" />
+		<param name="button1text" type="text" default="View Cart" label="Show Cart Button Text" description="This is the text that is displayed for the first button" />
+		<param name="button2text" type="text" default="Expand" label="Expand Drop Down Button Text" description="This is the text that is displayed for the second button" />
+		<param name="button2textclicked" type="text" default="Close" label="Close Drop Down Button Text" description="This is the text that is displayed for the second button when it is clicked" />
+		<param name="individual_price" type="text" default="Price" label="Individual Price Text" description="This is the text that is displayed for the Individual Price" />
+		<param name="order_total" type="text" default="Order Total" label="Order Total Text" description="This is the text that is displayed for the Order Total" />
+		<param name="items" type="text" default="Items" label="Items Text" description="This is the text that is displayed for the Items" />
+		<param name="openclose" type="list" default="yes" label="Open The Drop Down When An Item Is Added?" description="">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>
+		<param name="scroll" type="list" default="yes" label="Scroll The Page To The Top When An Item Is Added?" description="">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>
+	</params>
+</install>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="module" version="1.5.0">
+	<name>S5 Horizontal Login</name>
+	<author>Joomla! Project - modified by shape5.com</author>
+	<creationDate>October 2007</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>contact@shape5..com</authorEmail>
+	<authorUrl>www.shape5.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Horizontal login module.</description>
+	<files>
+		<filename module="mod_s5_horizontal_login">mod_s5_horizontal_login.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+	<params>
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="0">Never</option>
+		</param>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="login" type="menuitem" default="" label="Login Redirection URL" description="PARAMLOGINREDIRECTURL" />
+		<param name="logout" type="menuitem" default="" label="Logout Redirection URL" description="PARAMLOGOUTREDIRECTURL" />
+		<param name="greeting" type="radio" default="1" label="Greeting" description="Show/Hide the simple greeting text">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="messageyn" type="radio" default="1" label="Use Logged In Message?" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="remember" type="radio" default="0" label="Show Remember Me Box?" description="Show/Hide the remember me box.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="message" type="text" default="Welcome to our site!" label="Logged in Message" description="" />
+		<param name="name" type="list" default="0" label="Name/Username">
+			<option value="0">Username</option>
+			<option value="1">Name</option>
+		</param>
+		<param name="forgotp" type="text" default="Forgot Password?" label="Forgot Password Text" description="" />
+		<param name="forgotu" type="text" default="Username?" label="Forgot Username Text" description="" />
+
+	</params>
+</install>
